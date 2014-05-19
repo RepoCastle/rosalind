@@ -1,7 +1,6 @@
 package cn.hjmao.rosalind.fibd
 
 object Main extends App {
-
   def fibd(n: Int, m:Int, i: Int, table: Map[Int, BigInt]): Map[Int, BigInt] = {
     table.contains(n) match {
       case true => table
